@@ -1,0 +1,13 @@
+C:\Users\Studente\Source\Repos\programmazioneAdOggetti3\bin\Debug\netcoreapp3.1\programmazioneAdOggetti3.exe
+C:\Users\Studente\Source\Repos\programmazioneAdOggetti3\bin\Debug\netcoreapp3.1\programmazioneAdOggetti3.deps.json
+C:\Users\Studente\Source\Repos\programmazioneAdOggetti3\bin\Debug\netcoreapp3.1\programmazioneAdOggetti3.runtimeconfig.json
+C:\Users\Studente\Source\Repos\programmazioneAdOggetti3\bin\Debug\netcoreapp3.1\programmazioneAdOggetti3.runtimeconfig.dev.json
+C:\Users\Studente\Source\Repos\programmazioneAdOggetti3\bin\Debug\netcoreapp3.1\programmazioneAdOggetti3.dll
+C:\Users\Studente\Source\Repos\programmazioneAdOggetti3\bin\Debug\netcoreapp3.1\programmazioneAdOggetti3.pdb
+C:\Users\Studente\Source\Repos\programmazioneAdOggetti3\obj\Debug\netcoreapp3.1\programmazioneAdOggetti3.csproj.AssemblyReference.cache
+C:\Users\Studente\Source\Repos\programmazioneAdOggetti3\obj\Debug\netcoreapp3.1\programmazioneAdOggetti3.AssemblyInfoInputs.cache
+C:\Users\Studente\Source\Repos\programmazioneAdOggetti3\obj\Debug\netcoreapp3.1\programmazioneAdOggetti3.AssemblyInfo.cs
+C:\Users\Studente\Source\Repos\programmazioneAdOggetti3\obj\Debug\netcoreapp3.1\programmazioneAdOggetti3.csproj.CoreCompileInputs.cache
+C:\Users\Studente\Source\Repos\programmazioneAdOggetti3\obj\Debug\netcoreapp3.1\programmazioneAdOggetti3.dll
+C:\Users\Studente\Source\Repos\programmazioneAdOggetti3\obj\Debug\netcoreapp3.1\programmazioneAdOggetti3.pdb
+C:\Users\Studente\Source\Repos\programmazioneAdOggetti3\obj\Debug\netcoreapp3.1\programmazioneAdOggetti3.genruntimeconfig.cache

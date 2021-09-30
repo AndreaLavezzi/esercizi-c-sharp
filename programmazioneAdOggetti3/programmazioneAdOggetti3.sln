@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "programmazioneAdOggetti3", "programmazioneAdOggetti3.csproj", "{46611966-6C9E-488A-B6D5-2066DE1194FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46611966-6C9E-488A-B6D5-2066DE1194FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46611966-6C9E-488A-B6D5-2066DE1194FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46611966-6C9E-488A-B6D5-2066DE1194FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46611966-6C9E-488A-B6D5-2066DE1194FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0B9C665-AAB1-4C7F-8F03-93A47F1E93FD}
+	EndGlobalSection
+EndGlobal
