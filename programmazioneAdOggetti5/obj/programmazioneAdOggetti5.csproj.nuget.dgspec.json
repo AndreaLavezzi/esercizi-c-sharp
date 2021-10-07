@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Studente\\Source\\Repos\\programmazioneAdOggetti5\\programmazioneAdOggetti5.csproj": {}
+    "C:\\Users\\Studente\\Git Bash\\eserciziCSharp\\programmazioneAdOggetti5\\programmazioneAdOggetti5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Studente\\Source\\Repos\\programmazioneAdOggetti5\\programmazioneAdOggetti5.csproj": {
+    "C:\\Users\\Studente\\Git Bash\\eserciziCSharp\\programmazioneAdOggetti5\\programmazioneAdOggetti5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Studente\\Source\\Repos\\programmazioneAdOggetti5\\programmazioneAdOggetti5.csproj",
+        "projectUniqueName": "C:\\Users\\Studente\\Git Bash\\eserciziCSharp\\programmazioneAdOggetti5\\programmazioneAdOggetti5.csproj",
         "projectName": "programmazioneAdOggetti5",
-        "projectPath": "C:\\Users\\Studente\\Source\\Repos\\programmazioneAdOggetti5\\programmazioneAdOggetti5.csproj",
+        "projectPath": "C:\\Users\\Studente\\Git Bash\\eserciziCSharp\\programmazioneAdOggetti5\\programmazioneAdOggetti5.csproj",
         "packagesPath": "C:\\Users\\Studente\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Studente\\Source\\Repos\\programmazioneAdOggetti5\\obj\\",
+        "outputPath": "C:\\Users\\Studente\\Git Bash\\eserciziCSharp\\programmazioneAdOggetti5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Studente\\AppData\\Roaming\\NuGet\\NuGet.Config",

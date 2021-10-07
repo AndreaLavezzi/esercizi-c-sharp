@@ -16,23 +16,16 @@ namespace programmazioneAdOggetti5
             this.nome = nome;
         }
 
-        public void AggiungiTemperatura() //aggiungo temperature all'array in base a quante ne vuole l'utente, affinchè egli risponda con "y"
+        public void AggiungiTemperatura(double temperatura) //aggiungo temperature all'array
         {
-            string redo = "y";
-            while(redo == "y")
-            {
-                Console.Write("\nInserire la temperatura registrata: ");
-                Array.Resize(ref temperature, temperature.Length + 1);
-                temperature[temperature.Length - 1] = double.Parse(Console.ReadLine());
-                Console.Write("\nVuoi inserire una nuova temperatura? Inserire 'y' per continuare, altro per terminare l'inserimento.\n");
-                redo = Console.ReadLine();
-            }
+            Array.Resize(ref temperature, temperature.Length + 1);
+            temperature[temperature.Length - 1] = temperatura;
+            Array.Sort(temperature);
         }
 
-        public void VisualizzaTemperature() //comunico il nome della città e il valore delle temperature
+        public string ToString() //comunico il nome della città e il valore delle temperature
         {
-            Array.Sort(temperature);
-            Console.WriteLine("TEMPERATURE DI {0} \nTemperatura Massima: {1}, \nTemperatura Minima: {2}", nome.ToUpper(), temperature[temperature.Length - 1], temperature[0]);
+            return $"TEMPERATURE DI {nome.ToUpper()} \nTemperatura Massima: {temperature[temperature.Length - 1]}, \nTemperatura Minima: {temperature[0]}";
         }
     }
     class Program
@@ -42,8 +35,17 @@ namespace programmazioneAdOggetti5
             Console.Write("Inserire il nome della città: "); //chiedo il nome della città
             string nome = Console.ReadLine();
             Città città = new Città(nome); //creo un'istanza della classe città col nome inserito dall'utente
-            città.AggiungiTemperatura(); //aggiungo le temperature
-            città.VisualizzaTemperature(); //visualizzo il nome della città e la temperatura massima e minima
+
+            string redo = "y";
+            while (redo == "y")
+            {
+                Console.Write("\nInserire la temperatura registrata: ");
+                città.AggiungiTemperatura(Double.Parse(Console.ReadLine()));
+                Console.Write("\nVuoi inserire una nuova temperatura? Inserire 'y' per continuare, altro per terminare l'inserimento.\n");
+                redo = Console.ReadLine();
+            }
+
+            Console.WriteLine(città.ToString()); //visualizzo il nome della città e la temperatura massima e minima
         }
     }
 }

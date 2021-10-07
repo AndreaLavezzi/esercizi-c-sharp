@@ -11,3 +11,16 @@ C:\Users\Studente\Source\Repos\programmazioneAdOggetti5\obj\Debug\netcoreapp3.1\
 C:\Users\Studente\Source\Repos\programmazioneAdOggetti5\obj\Debug\netcoreapp3.1\programmazioneAdOggetti5.dll
 C:\Users\Studente\Source\Repos\programmazioneAdOggetti5\obj\Debug\netcoreapp3.1\programmazioneAdOggetti5.pdb
 C:\Users\Studente\Source\Repos\programmazioneAdOggetti5\obj\Debug\netcoreapp3.1\programmazioneAdOggetti5.genruntimeconfig.cache
+C:\Users\Studente\Git Bash\eserciziCSharp\programmazioneAdOggetti5\bin\Debug\netcoreapp3.1\programmazioneAdOggetti5.exe
+C:\Users\Studente\Git Bash\eserciziCSharp\programmazioneAdOggetti5\bin\Debug\netcoreapp3.1\programmazioneAdOggetti5.deps.json
+C:\Users\Studente\Git Bash\eserciziCSharp\programmazioneAdOggetti5\bin\Debug\netcoreapp3.1\programmazioneAdOggetti5.runtimeconfig.json
+C:\Users\Studente\Git Bash\eserciziCSharp\programmazioneAdOggetti5\bin\Debug\netcoreapp3.1\programmazioneAdOggetti5.runtimeconfig.dev.json
+C:\Users\Studente\Git Bash\eserciziCSharp\programmazioneAdOggetti5\bin\Debug\netcoreapp3.1\programmazioneAdOggetti5.dll
+C:\Users\Studente\Git Bash\eserciziCSharp\programmazioneAdOggetti5\bin\Debug\netcoreapp3.1\programmazioneAdOggetti5.pdb
+C:\Users\Studente\Git Bash\eserciziCSharp\programmazioneAdOggetti5\obj\Debug\netcoreapp3.1\programmazioneAdOggetti5.csproj.AssemblyReference.cache
+C:\Users\Studente\Git Bash\eserciziCSharp\programmazioneAdOggetti5\obj\Debug\netcoreapp3.1\programmazioneAdOggetti5.AssemblyInfoInputs.cache
+C:\Users\Studente\Git Bash\eserciziCSharp\programmazioneAdOggetti5\obj\Debug\netcoreapp3.1\programmazioneAdOggetti5.AssemblyInfo.cs
+C:\Users\Studente\Git Bash\eserciziCSharp\programmazioneAdOggetti5\obj\Debug\netcoreapp3.1\programmazioneAdOggetti5.csproj.CoreCompileInputs.cache
+C:\Users\Studente\Git Bash\eserciziCSharp\programmazioneAdOggetti5\obj\Debug\netcoreapp3.1\programmazioneAdOggetti5.dll
+C:\Users\Studente\Git Bash\eserciziCSharp\programmazioneAdOggetti5\obj\Debug\netcoreapp3.1\programmazioneAdOggetti5.pdb
+C:\Users\Studente\Git Bash\eserciziCSharp\programmazioneAdOggetti5\obj\Debug\netcoreapp3.1\programmazioneAdOggetti5.genruntimeconfig.cache
