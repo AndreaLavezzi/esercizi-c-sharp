@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Studente\\Source\\Repos\\programmazioneAdOggetti4\\programmazioneAdOggetti4.csproj",
+      "projectUniqueName": "C:\\Users\\Studente\\Git Bash\\eserciziCSharp\\programmazioneAdOggetti4\\programmazioneAdOggetti4.csproj",
       "projectName": "programmazioneAdOggetti4",
-      "projectPath": "C:\\Users\\Studente\\Source\\Repos\\programmazioneAdOggetti4\\programmazioneAdOggetti4.csproj",
+      "projectPath": "C:\\Users\\Studente\\Git Bash\\eserciziCSharp\\programmazioneAdOggetti4\\programmazioneAdOggetti4.csproj",
       "packagesPath": "C:\\Users\\Studente\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Studente\\Source\\Repos\\programmazioneAdOggetti4\\obj\\",
+      "outputPath": "C:\\Users\\Studente\\Git Bash\\eserciziCSharp\\programmazioneAdOggetti4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Studente\\AppData\\Roaming\\NuGet\\NuGet.Config",

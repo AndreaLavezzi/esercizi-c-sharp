@@ -1,51 +1,55 @@
-﻿//Autore: Lavezzi Andrea
+﻿//Nickname: @Sandstorm
 //Data: 01/20/2021
 /*Consegna: Dopo aver acquisito da tastiera una serie di dati relativi alla misurazione della temperatura di una
-certa città, scrivere il codice di un programma(OOP) in C# che determini e visualizzi la temperatura
-più bassa e quella più alta. */
+* certa città, scrivere il codice di un programma(OOP) in C# che determini e visualizzi la temperatura
+* più bassa e quella più alta. */
 using System;
 
 namespace programmazioneAdOggetti5
 {
-    class Città
+    //la classe 
+    class City
     {
-        string nome;
-        double[] temperature = new double[0]; //creo un array vuoto
-        public Città(string nome) //tramite il costruttore chiedo il nome della città
+        string name;
+        double[] temperatures = new double[0]; //creo un array vuoto
+        public City(string name) //tramite il costruttore chiedo il nome della città
         {
-            this.nome = nome;
+            this.name = name;
         }
 
-        public void AggiungiTemperatura(double temperatura) //aggiungo temperature all'array
+        public void AddTemperature(double temperature) //aggiungo temperature all'array
         {
-            Array.Resize(ref temperature, temperature.Length + 1);
-            temperature[temperature.Length - 1] = temperatura;
-            Array.Sort(temperature);
+            Array.Resize(ref temperatures, temperatures.Length + 1);
+            temperatures[temperatures.Length - 1] = temperature;
+            Array.Sort(temperatures);
         }
 
-        public string ToString() //comunico il nome della città e il valore delle temperature
+        public override string ToString() //comunico il nome della città e il valore delle temperature
         {
-            return $"TEMPERATURE DI {nome.ToUpper()} \nTemperatura Massima: {temperature[temperature.Length - 1]}, \nTemperatura Minima: {temperature[0]}";
+            return $"TEMPERATURE DI {name.ToUpper()} \nTemperatura Massima: {temperatures[temperatures.Length - 1]}, \nTemperatura Minima: {temperatures[0]}";
         }
     }
     class Program
     {
         static void Main(string[] args)
         {
-            Console.Write("Inserire il nome della città: "); //chiedo il nome della città
-            string nome = Console.ReadLine();
-            Città città = new Città(nome); //creo un'istanza della classe città col nome inserito dall'utente
-
+            string name;
             string redo = "y";
+
+            Console.Write("Inserire il nome della città: "); //chiedo il nome della città
+            name = Console.ReadLine();
+
+            City city = new City(name); //creo un'istanza della classe città col nome inserito dall'utente
+
             while (redo == "y")
             {
                 Console.Write("\nInserire la temperatura registrata: ");
-                città.AggiungiTemperatura(Double.Parse(Console.ReadLine()));
+                city.AddTemperature(Double.Parse(Console.ReadLine()));
                 Console.Write("\nVuoi inserire una nuova temperatura? Inserire 'y' per continuare, altro per terminare l'inserimento.\n");
                 redo = Console.ReadLine();
             }
 
-            Console.WriteLine(città.ToString()); //visualizzo il nome della città e la temperatura massima e minima
+            Console.WriteLine(city.ToString()); //visualizzo il nome della città e la temperatura massima e minima
         }
     }
 }

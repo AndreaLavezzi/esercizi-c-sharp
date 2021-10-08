@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Studente\\Source\\Repos\\programmazioneAdOggetti2\\programmazioneAdOggetti2.csproj": {}
+    "C:\\Users\\Studente\\Git Bash\\eserciziCSharp\\programmazioneAdOggetti2\\programmazioneAdOggetti2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Studente\\Source\\Repos\\programmazioneAdOggetti2\\programmazioneAdOggetti2.csproj": {
+    "C:\\Users\\Studente\\Git Bash\\eserciziCSharp\\programmazioneAdOggetti2\\programmazioneAdOggetti2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Studente\\Source\\Repos\\programmazioneAdOggetti2\\programmazioneAdOggetti2.csproj",
+        "projectUniqueName": "C:\\Users\\Studente\\Git Bash\\eserciziCSharp\\programmazioneAdOggetti2\\programmazioneAdOggetti2.csproj",
         "projectName": "programmazioneAdOggetti2",
-        "projectPath": "C:\\Users\\Studente\\Source\\Repos\\programmazioneAdOggetti2\\programmazioneAdOggetti2.csproj",
+        "projectPath": "C:\\Users\\Studente\\Git Bash\\eserciziCSharp\\programmazioneAdOggetti2\\programmazioneAdOggetti2.csproj",
         "packagesPath": "C:\\Users\\Studente\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Studente\\Source\\Repos\\programmazioneAdOggetti2\\obj\\",
+        "outputPath": "C:\\Users\\Studente\\Git Bash\\eserciziCSharp\\programmazioneAdOggetti2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Studente\\AppData\\Roaming\\NuGet\\NuGet.Config",

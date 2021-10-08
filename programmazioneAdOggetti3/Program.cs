@@ -1,4 +1,4 @@
-﻿//Autore: Andrea Lavezzi
+﻿//Nickname: @Sandstorm7
 //Data: 30/09/2021
 /*Consegna: Tramite la programmazione ad oggetti scrivere un programma in C# 
  * che dopo aver letto in input 3
@@ -7,13 +7,13 @@ using System;
 
 namespace programmazioneAdOggetti3
 {
-    class Persona //definizione della classe Persona
+    class Person //definizione della classe Persona
     {
-        public int età { get; } //creo l'attributo "età" e lo imposto di sola lettura
+        public int age { get; } //creo l'attributo "età" e lo imposto di sola lettura
 
-        public Persona(int età) //metodo costruttore
+        public Person(int age) //metodo costruttore
         {
-            this.età = età;
+            this.age = age;
         }
     }
     class Program
@@ -21,26 +21,26 @@ namespace programmazioneAdOggetti3
         static void Main(string[] args)
         {
             //inserimento da tastiera delle età delle tre persone
-            int età;
+            int age;
             Console.Write("Inserire l'età della prima persona: ");
-            età = int.Parse(Console.ReadLine());
-            Persona a = new Persona(età);
+            age = int.Parse(Console.ReadLine());
+            Person a = new Person(age);
 
             Console.Write("Inserire l'età della seconda persona: ");
-            età = int.Parse(Console.ReadLine());
-            Persona b = new Persona(età);
+            age = int.Parse(Console.ReadLine());
+            Person b = new Person(age);
 
             Console.Write("Inserire l'età della terza persona: ");
-            età = int.Parse(Console.ReadLine());
-            Persona c = new Persona(età);
+            age = int.Parse(Console.ReadLine());
+            Person c = new Person(age);
 
             //comunico all'utente la media delle età, calcolata tramite la funzione MediaEtà
-            Console.WriteLine("La media delle età è: {0}", MediaEtà(a, b, c));
+            Console.WriteLine("La media delle età è: {0}", AverageAge(a, b, c));
         }
 
-        static float MediaEtà(Persona a, Persona b, Persona c) //prendo come parametri le tre persone
+        static float AverageAge(Person a, Person b, Person c) //prendo come parametri le tre persone
         {
-            float media = (a.età + b.età + c.età) / 3; //leggo le età e ne faccio la media
+            float media = (a.age + b.age + c.age) / 3; //leggo le età e ne faccio la media
             return media;
         }
     }

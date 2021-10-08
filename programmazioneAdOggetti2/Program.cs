@@ -1,4 +1,6 @@
-﻿/*Tramite la programmazione ad oggetti scrivere il codice di un programma
+﻿//Nickname: @Sandstorm7
+//Data: 30/09/2021
+/*Consegna: Tramite la programmazione ad oggetti scrivere il codice di un programma
  *che dopo aver costruito la classe Calciatore visualizzi in output: il 
  *nome del calciatore, il ruolo, la squadra ed i gol segnati (i dati vengono
  *assegnati all'interno del codice).*/
