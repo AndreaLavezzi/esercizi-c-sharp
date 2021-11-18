@@ -1,0 +1,13 @@
+C:\Users\Studente\Git Bash\eserciziCSharp\ereditarietàDelleClassi2\bin\Debug\netcoreapp3.1\ereditarietàDelleClassi2.exe
+C:\Users\Studente\Git Bash\eserciziCSharp\ereditarietàDelleClassi2\bin\Debug\netcoreapp3.1\ereditarietàDelleClassi2.deps.json
+C:\Users\Studente\Git Bash\eserciziCSharp\ereditarietàDelleClassi2\bin\Debug\netcoreapp3.1\ereditarietàDelleClassi2.runtimeconfig.json
+C:\Users\Studente\Git Bash\eserciziCSharp\ereditarietàDelleClassi2\bin\Debug\netcoreapp3.1\ereditarietàDelleClassi2.runtimeconfig.dev.json
+C:\Users\Studente\Git Bash\eserciziCSharp\ereditarietàDelleClassi2\bin\Debug\netcoreapp3.1\ereditarietàDelleClassi2.dll
+C:\Users\Studente\Git Bash\eserciziCSharp\ereditarietàDelleClassi2\bin\Debug\netcoreapp3.1\ereditarietàDelleClassi2.pdb
+C:\Users\Studente\Git Bash\eserciziCSharp\ereditarietàDelleClassi2\obj\Debug\netcoreapp3.1\ereditarietàDelleClassi2.csproj.AssemblyReference.cache
+C:\Users\Studente\Git Bash\eserciziCSharp\ereditarietàDelleClassi2\obj\Debug\netcoreapp3.1\ereditarietàDelleClassi2.AssemblyInfoInputs.cache
+C:\Users\Studente\Git Bash\eserciziCSharp\ereditarietàDelleClassi2\obj\Debug\netcoreapp3.1\ereditarietàDelleClassi2.AssemblyInfo.cs
+C:\Users\Studente\Git Bash\eserciziCSharp\ereditarietàDelleClassi2\obj\Debug\netcoreapp3.1\ereditarietàDelleClassi2.csproj.CoreCompileInputs.cache
+C:\Users\Studente\Git Bash\eserciziCSharp\ereditarietàDelleClassi2\obj\Debug\netcoreapp3.1\ereditarietàDelleClassi2.dll
+C:\Users\Studente\Git Bash\eserciziCSharp\ereditarietàDelleClassi2\obj\Debug\netcoreapp3.1\ereditarietàDelleClassi2.pdb
+C:\Users\Studente\Git Bash\eserciziCSharp\ereditarietàDelleClassi2\obj\Debug\netcoreapp3.1\ereditarietàDelleClassi2.genruntimeconfig.cache
