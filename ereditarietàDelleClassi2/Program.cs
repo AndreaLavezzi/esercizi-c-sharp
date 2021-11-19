@@ -22,7 +22,7 @@ namespace ereditarietàDelleClassi2
         }
         public virtual int Preleva(int quantita)
         {
-            if(quantita > 0)
+            if(quantita > 0 && quantita <= saldo)
             { 
                 saldo -= quantita;
                 return 0;
@@ -46,27 +46,27 @@ namespace ereditarietàDelleClassi2
         }
         public override int Versa(int quantita)
         {
-            if(quantita <= 3000)
+            if(quantita > 3000)
             {
-                base.Versa(quantita);
-                return 0;
+                return -1;
             }
             else
             {
-                return -1;
+                base.Versa(quantita);
+                return 1;
             }
         }
 
         public override int Preleva(int quantita)
         {
-            if (quantita <= 3000)
+            if (quantita > 3000)
             {
-                base.Versa(quantita);
-                return 0;
+                return -1;
             }
             else
             {
-                return -1;
+                base.Preleva(quantita);
+                return 0;
             }
         }
     }
@@ -116,7 +116,7 @@ namespace ereditarietàDelleClassi2
         public static string ListaContiSpeciali()
         {
             string lista = "";
-            for (int i = 0; i < contiNormali.Count; i++)
+            for (int i = 0; i < contiSpeciali.Count; i++)
             {
                 lista += i + 1 + ") " + contiSpeciali[i].GetSaldo() + " euro\n";
             }
@@ -208,12 +208,6 @@ namespace ereditarietàDelleClassi2
                         Console.Write("\nRisposta non valida, reinserire: ");
                         break;
                 }
-                //if (success)
-                //{
-                //    Console.WriteLine("Premi un tasto qualsiasi per continuare...");
-                //    Console.ReadKey(true);
-                //}
-
             } while (!success);
         }
 
@@ -236,7 +230,8 @@ namespace ereditarietàDelleClassi2
             }
             if (numeroConti == 0)
             {
-                Console.WriteLine("Non esistono conti di questo tipo");
+                Console.WriteLine("Non esistono conti di questo tipo. Premi qualsiasi tasto per continuare...");
+                Console.ReadKey();
             }
             else
             {
@@ -270,10 +265,14 @@ namespace ereditarietàDelleClassi2
                     switch (Console.ReadLine())
                     {
                         case "1":
+                            Preleva(tipo, contoSelezionato - 1);
                             break;
                         case "2":
+                            Versa(tipo, contoSelezionato - 1);
                             break;
                         default:
+                            Console.Write("Inserire uno dei valori proposti.\nRisposta: ");
+                            success = false;
                             break;
                     }
                 } while (!success);
@@ -283,7 +282,7 @@ namespace ereditarietàDelleClassi2
 
         static void Preleva(int tipo, int contoSelezionato)
         {
-            int risultato = 0, daPrelevare = 0;
+            int risultato = 0, daPrelevare;
             bool success;
             Console.Write("Quanti soldi vuoi prelevare?\nRisposta: ");
             do
@@ -302,12 +301,45 @@ namespace ereditarietàDelleClassi2
             }
             if(risultato == -1)
             {
-                Console.WriteLine("Prelevamento riuscito");
+                Console.Write("Prelevamento rifiutato.");
             }
             else
             {
-
+                Console.Write("Prelevamento riuscito.");
             }
+            Console.Write(" Premi qualsiasi tasto per continuare...");
+            Console.ReadKey();
+        }
+        static void Versa(int tipo, int contoSelezionato)
+        {
+            int risultato = 0, daVersare;
+            bool success;
+            Console.Write("Quanti soldi vuoi versare?\nRisposta: ");
+            do
+            {
+                success = Int32.TryParse(Console.ReadLine(), out daVersare);
+            } while (!success);
+
+            switch (tipo)
+            {
+                case 1:
+                    risultato = Conti.contiNormali[contoSelezionato].Versa(daVersare);
+                    break;
+                case 2:
+                    risultato = Conti.contiSpeciali[contoSelezionato].Versa(daVersare);
+                    break;
+            }
+
+            if (risultato == -1)
+            {
+                Console.Write("Versamento rifiutato.");
+            }
+            else
+            {
+                Console.Write("Versamento riuscito.");
+            }
+            Console.Write(" Premi qualsiasi tasto per continuare...");
+            Console.ReadKey();
         }
     }
 }
