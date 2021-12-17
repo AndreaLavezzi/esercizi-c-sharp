@@ -1,0 +1,7 @@
+C:\Users\Studente\Git Bash\eserciziCSharp\polimorfismo1\bin\Debug\polimorfismo1.exe.config
+C:\Users\Studente\Git Bash\eserciziCSharp\polimorfismo1\bin\Debug\polimorfismo1.exe
+C:\Users\Studente\Git Bash\eserciziCSharp\polimorfismo1\bin\Debug\polimorfismo1.pdb
+C:\Users\Studente\Git Bash\eserciziCSharp\polimorfismo1\obj\Debug\polimorfismo1.csproj.AssemblyReference.cache
+C:\Users\Studente\Git Bash\eserciziCSharp\polimorfismo1\obj\Debug\polimorfismo1.csproj.CoreCompileInputs.cache
+C:\Users\Studente\Git Bash\eserciziCSharp\polimorfismo1\obj\Debug\polimorfismo1.exe
+C:\Users\Studente\Git Bash\eserciziCSharp\polimorfismo1\obj\Debug\polimorfismo1.pdb
