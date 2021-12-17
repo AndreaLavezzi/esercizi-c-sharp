@@ -1,15 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// Autore: Lavezzi Andrea
+// Classe: 4F
+// Data: 17/12/2021
+/* Consegna:
+ * Si crei la classe dipendente con i soli attributi: matricola, nome e cognome. La classe avrà un
+ * metodo che calcola la retribuzione oraria. Dalla nostra classe dipendente vogliamo derivare tre
+ * differenti classi: dirigente, impiegato e operaio. Visualizzare la retribuzione oraria dei tre dipendenti
+ * sapendo che la retribuzione oraria per l’operario è 35€/h mentre per l’impiegato la retribuzione
+ * aumenta del 30% e per il dirigente del 50%.
+ */
+using System;
 
 namespace polimorfismo1
 {
+    // Classe base "Dipendente", ha un numero di matricola, un nome, un cognome. Il metodo costruttore assegna dei valori a questi attributi. Ha un metodo ToString() per ottenere i valori degli attributi. Ha un metodo vuoto "GetRetribuzione" per vedere la retribuzione oraria.
     class Dipendente
     {
         int matricola;
-        string nome, cognome;
+        string nome, cognome; 
         public Dipendente(int matricola, string nome, string cognome)
         {
             this.matricola = matricola;
@@ -22,49 +29,47 @@ namespace polimorfismo1
             return $"{nome} {cognome}, Matricola: {matricola}";
         }
 
-        public virtual string Retribuzione()
+        public virtual string GetRetribuzione()
         {
             return "";
         }
     }
 
+    
     class Operaio : Dipendente
     {
-        string retribuzione;
         public Operaio(int matricola, string nome, string cognome) : base(matricola, nome, cognome)
         {
-            this.retribuzione = "35 euro/h";
+            
         }
-        public override string Retribuzione()
+        public override string GetRetribuzione()
         {
-            return retribuzione;
+            return "35 euro/h";
         }
     }
 
     class Dirigente : Dipendente
     {
-        string retribuzione;
         public Dirigente(int matricola, string nome, string cognome) : base(matricola, nome, cognome)
         {
-            this.retribuzione = "52.5 euro/h";
+  
         }
-        public override string Retribuzione()
+        public override string GetRetribuzione()
         {
-            return retribuzione;
+            return "52.5 euro/h";
         }
     }
 
     class Impiegato : Dipendente
     {
-        string retribuzione;
         public Impiegato(int matricola, string nome, string cognome) : base(matricola, nome, cognome) 
         {
-            this.retribuzione = "45.5 euro/h"; 
+
         }
 
-        public override string Retribuzione()
+        public override string GetRetribuzione()
         {
-            return retribuzione;
+            return "45.5 euro/h";
         }
     }
     class Program
@@ -74,9 +79,9 @@ namespace polimorfismo1
             Operaio operaio = new Operaio(1, "Mario", "Rossi");
             Impiegato impiegato = new Impiegato(2, "Alberto", "Bianchi");
             Dirigente dirigente = new Dirigente(3, "Giuseppe", "Verdi");
-            Console.WriteLine(operaio.ToString() + ":\n" + operaio.Retribuzione());
-            Console.WriteLine(impiegato.ToString() + ":\n" + impiegato.Retribuzione());
-            Console.WriteLine(dirigente.ToString() + ":\n" + dirigente.Retribuzione());
+            Console.WriteLine(operaio.ToString() + ":\n" + operaio.GetRetribuzione());
+            Console.WriteLine(impiegato.ToString() + ":\n" + impiegato.GetRetribuzione());
+            Console.WriteLine(dirigente.ToString() + ":\n" + dirigente.GetRetribuzione());
             Console.ReadKey();
         }
     }
