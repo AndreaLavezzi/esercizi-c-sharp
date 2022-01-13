@@ -1,0 +1,13 @@
+C:\Users\Studente\Git Bash\eserciziCSharp\verificaLaboratorio1\bin\Debug\netcoreapp3.1\verificaLaboratorio1.exe
+C:\Users\Studente\Git Bash\eserciziCSharp\verificaLaboratorio1\bin\Debug\netcoreapp3.1\verificaLaboratorio1.deps.json
+C:\Users\Studente\Git Bash\eserciziCSharp\verificaLaboratorio1\bin\Debug\netcoreapp3.1\verificaLaboratorio1.runtimeconfig.json
+C:\Users\Studente\Git Bash\eserciziCSharp\verificaLaboratorio1\bin\Debug\netcoreapp3.1\verificaLaboratorio1.runtimeconfig.dev.json
+C:\Users\Studente\Git Bash\eserciziCSharp\verificaLaboratorio1\bin\Debug\netcoreapp3.1\verificaLaboratorio1.dll
+C:\Users\Studente\Git Bash\eserciziCSharp\verificaLaboratorio1\bin\Debug\netcoreapp3.1\verificaLaboratorio1.pdb
+C:\Users\Studente\Git Bash\eserciziCSharp\verificaLaboratorio1\obj\Debug\netcoreapp3.1\verificaLaboratorio1.csproj.AssemblyReference.cache
+C:\Users\Studente\Git Bash\eserciziCSharp\verificaLaboratorio1\obj\Debug\netcoreapp3.1\verificaLaboratorio1.AssemblyInfoInputs.cache
+C:\Users\Studente\Git Bash\eserciziCSharp\verificaLaboratorio1\obj\Debug\netcoreapp3.1\verificaLaboratorio1.AssemblyInfo.cs
+C:\Users\Studente\Git Bash\eserciziCSharp\verificaLaboratorio1\obj\Debug\netcoreapp3.1\verificaLaboratorio1.csproj.CoreCompileInputs.cache
+C:\Users\Studente\Git Bash\eserciziCSharp\verificaLaboratorio1\obj\Debug\netcoreapp3.1\verificaLaboratorio1.dll
+C:\Users\Studente\Git Bash\eserciziCSharp\verificaLaboratorio1\obj\Debug\netcoreapp3.1\verificaLaboratorio1.pdb
+C:\Users\Studente\Git Bash\eserciziCSharp\verificaLaboratorio1\obj\Debug\netcoreapp3.1\verificaLaboratorio1.genruntimeconfig.cache
